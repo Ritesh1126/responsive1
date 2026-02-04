@@ -19,9 +19,6 @@ html {
 body {
     background-color: #1d1d1d;
 }
-
-/* ================= NAVBAR ================= */
-
 .navbar {
     display: flex;
     align-items: center;
@@ -71,8 +68,6 @@ body {
     cursor: pointer;
 }
 
-/* ================= HERO + SERVICES ================= */
-
 .services-layout {
     display: flex;
     gap: 2rem;
@@ -81,7 +76,6 @@ body {
     margin: auto;
 }
 
-/* IMAGE SECTION */
 .top {
     position: relative;
     width: 50%;
@@ -94,8 +88,6 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
-/* GRADIENT OVERLAY */
 .top::after {
     content: "";
     position: absolute;
@@ -108,7 +100,6 @@ body {
     );
 }
 
-/* TEXT OVER IMAGE */
 .overlay-text {
     position: absolute;
     left: 8%;
@@ -131,8 +122,6 @@ body {
     line-height: 1.6;
     animation: fadeUp 1.5s ease forwards;
 }
-
-/* ================= SERVICES ================= */
 
 .services-list {
     width: 50%;
@@ -177,8 +166,6 @@ body {
     transform: rotate(45deg);
 }
 
-/* ================= ANIMATION ================= */
-
 @keyframes fadeUp {
     from {
         opacity: 0;
@@ -189,8 +176,6 @@ body {
         transform: translateY(0);
     }
 }
-
-/* ================= RESPONSIVE ================= */
 
 @media (max-width: 900px) {
     .services-layout {
