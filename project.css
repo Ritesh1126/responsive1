@@ -1,0 +1,109 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0b0b0b;
+    color:#fff;
+    font-family:system-ui, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+.logo{
+    font-size:20px;
+    letter-spacing:3px;
+}
+
+.nav-links{
+    display:flex;
+    gap:14px;
+}
+
+.nav-links a{
+    color:#ddd;
+    text-decoration:none;
+    padding:10px 16px;
+    border-radius:10px;
+    background:#161616;
+}
+
+.cta-btn{
+    background:#d6c46d;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+}
+
+/* HERO */
+
+.hero{
+    padding:80px 70px;
+}
+
+.small-title{
+    letter-spacing:2px;
+    opacity:.7;
+}
+
+.hero h1{
+    font-size:70px;
+    font-weight:300;
+    margin:20px 0;
+}
+
+.subtitle{
+    color:#aaa;
+    max-width:450px;
+}
+
+/* PROJECT GRID */
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+    padding:40px 70px;
+}
+
+.project-card{
+    height:400px;
+    background:#e1c5c5;
+    border-radius:20px;
+    padding:30px;
+}
+
+/* IMAGES */
+
+.img1{
+    background:url("fashion1.jpg") center/cover;
+}
+
+.img2{
+    background:url("fashion2.jpg") center/cover;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.hero h1{
+    font-size:40px;
+}
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+}
